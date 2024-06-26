@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e5e78b1ae2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Products</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Thêm sản phẩm</h1>
+        <form action="" method="post" enctype="multipart/form-data">
+            <!-- Thông tin cơ bản -->
+            <div class="form-group">
+                <label for="productName">Tên sản phẩm:</label>
+                <input type="text" class="form-control" id="productName" name="productName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="productDescription">Mô tả sản phẩm:</label>
+                <textarea class="form-control" id="productDescription" name="productDescription" rows="4" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="category">Danh mục sản phẩm:</label>
+                <select class="form-control" id="category" name="category" required>
+                    <option value="electronics">Điện tử</option>
+                    <option value="fashion">Thời trang</option>
+                    <option value="home">Nhà cửa</option>
+                    <!-- Thêm các tùy chọn khác -->
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="price">Giá:</label>
+                <input type="number" class="form-control" id="price" name="price" required>
+            </div>
+
+            <div class="form-group">
+                <label for="sku">SKU:</label>
+                <input type="text" class="form-control" id="sku" name="sku">
+            </div>
+
+            <!-- Hình ảnh sản phẩm -->
+            <div class="form-group">
+                <label for="mainImage">Hình ảnh chính:</label>
+                <input type="file" class="form-control-file" id="mainImage" name="mainImage" accept="image/*" required>
+            </div>
+
+            <div class="form-group">
+                <label for="additionalImages">Hình ảnh phụ:</label>
+                <input type="file" class="form-control-file" id="additionalImages" name="additionalImages" accept="image/*" multiple>
+            </div>
+
+            <!-- Tình trạng hàng tồn kho -->
+            <div class="form-group">
+                <label for="stockQuantity">Số lượng trong kho:</label>
+                <input type="number" class="form-control" id="stockQuantity" name="stockQuantity" required>
+            </div>
+
+            <div class="form-group">
+                <label for="productStatus">Tình trạng sản phẩm:</label>
+                <select class="form-control" id="productStatus" name="productStatus" required>
+                    <option value="inStock">Còn hàng</option>
+                    <option value="outOfStock">Hết hàng</option>
+                    <option value="preOrder">Đặt hàng trước</option>
+                </select>
+            </div>
+
+            <!-- Thông tin bán hàng -->
+            <div class="form-group">
+                <label for="discount">Giảm giá (%):</label>
+                <input type="number" class="form-control" id="discount" name="discount">
+            </div>
+
+            <div class="form-group">
+                <label for="startDate">Ngày bắt đầu bán:</label>
+                <input type="date" class="form-control" id="startDate" name="startDate" required>
+            </div>
+
+            <div class="form-group">
+                <label for="endDate">Ngày kết thúc bán:</label>
+                <input type="date" class="form-control" id="endDate" name="endDate">
+            </div>
+
+            <!-- Các thuộc tính bổ sung -->
+            <div class="form-group">
+                <label for="brand">Thương hiệu:</label>
+                <input type="text" class="form-control" id="brand" name="brand">
+            </div>
+
+            <div class="form-group">
+                <label for="manufacturer">Nhà sản xuất:</label>
+                <input type="text" class="form-control" id="manufacturer" name="manufacturer">
+            </div>
+
+            <div class="form-group">
+                <label for="warranty">Bảo hành (tháng):</label>
+                <input type="number" class="form-control" id="warranty" name="warranty">
+            </div>
+
+            <!-- SEO và Marketing -->
+            <div class="form-group">
+                <label for="titleTag">Thẻ tiêu đề:</label>
+                <input type="text" class="form-control" id="titleTag" name="titleTag" required>
+            </div>
+
+            <div class="form-group">
+                <label for="metaDescription">Thẻ mô tả:</label>
+                <textarea class="form-control" id="metaDescription" name="metaDescription" rows="2" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="keywords">Từ khóa:</label>
+                <textarea class="form-control" id="keywords" name="keywords" rows="2" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="urlSlug">URL thân thiện:</label>
+                <input type="text" class="form-control" id="urlSlug" name="urlSlug" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Thêm sản phẩm</button>
+        </form>
+    </div>
+</body>
+</html>

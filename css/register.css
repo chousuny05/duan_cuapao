@@ -1,0 +1,70 @@
+body{
+    background: url("https://images.viblo.asia/ce1d3dc0-5dca-4214-9862-9547fd1ffdcd.png");
+    background-size: cover;
+    background-position-y:-70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-register{
+    max-width: 300px;
+    background-color: rgba(0, 0, 0, 0.4);
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 17px 2px rgba(189,184,184,0.4);
+}
+.form-header{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-group{
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    flex-grow: 1;
+}
+.form-input::placeholder{
+    color: #dad4d4;
+}
+.form-submit{
+    background: transparent;
+    color: #fff;
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+    padding: 6px 6px ;
+    text-transform: uppercase;
+    transition: 0.25s ease-in-out ;
+    margin-top: 10px;
+}
+.form-submit:hover{
+    border: 2px solid rgba(110, 112, 209, 0.4);
+}
+/* role */
+.hidden{
+    display: none;
+}
+.hover-target{
+    margin-top: 10px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+}
+

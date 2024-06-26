@@ -1,0 +1,126 @@
+.text-center {
+    margin: 20px auto;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.col {
+    border: 1px solid #cac8c8;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.col p:hover {
+    font-weight: bolder;
+}
+
+.overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Màu nền overlay */
+    color: white;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+}
+
+.col:hover .overlay {
+    display: flex;
+    /* Hiển thị overlay khi hover vào .col */
+    opacity: 1;
+}
+
+.contact h5 {
+    font-size: 15px;
+}
+
+.overlay a {
+    text-decoration: none;
+    color: white;
+}
+
+.product-list {
+    margin-top: 10px;
+    height: 50px;
+    display: flex;
+    background-color: rgb(235, 234, 232);
+}
+
+.view-list ul,
+.product-list ul {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.product-list li {
+    margin-right: 20px;
+}
+
+.view-list {
+    margin-left: 23%;
+}
+
+.view-list a {
+    color: red;
+}
+
+.view-list ul li {
+    text-decoration: none;
+}
+
+.row .col-md-4,
+.row .col-md-2 {
+    border: 1px solid #cac8c8;
+}
+
+.showproduct {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.showproducts {
+    margin-right: 2px;
+}
+
+  /* CSS cho Swiper */
+  .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: #fff;
+
+    /* Canh giữa nội dung của slide theo chiều dọc và ngang */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+/* Định dạng hình ảnh trong mỗi slide */
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+}
