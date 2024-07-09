@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e5e78b1ae2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/footer.css">
+    <title>Document</title>
+</head>
+<body>
+  <footer>
+    <div class="footer-container">
+        <div class="footer-section about">
+            <h2>Pao</h2>
+            <p>Cửa hàng thời trang của bạn với những xu hướng mới nhất. Tại Pao, chúng tôi cung cấp đa dạng các loại trang phục phù hợp với mọi phong cách và dịp.</p>
+            <div class="socials">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="footer-section links">
+            <h2>Liên kết nhanh</h2>
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Sản phẩm</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Liên hệ</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <div class="footer-section contact">
+            <h2>Liên hệ</h2>
+            <ul>
+                <li><i class="fa fa-map-marker"></i> 123 Đường ABC, Quận 1, TP. HCM</li>
+                <li><i class="fa fa-phone"></i> +84 123 456 789</li>
+                <li><i class="fa fa-envelope"></i> support@pao.com</li>
+            </ul>
+        </div>
+    </div><hr>
+    <div class="footer-bottom">
+        &copy; 2024 Pao. All rights reserved.
+    </div>
+</footer>
+</body>
+</html>

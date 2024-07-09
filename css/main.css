@@ -1,3 +1,34 @@
+.col-function {
+    width: calc(33.33% - 20px);
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.col-function i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.col-function p {
+    font-size: 20px;
+    color: #1a1515;
+    margin-bottom: 5px;
+}
+
+.col-function a {
+    text-decoration: none;
+    color: #666;
+}
+
+.col-function p:hover {
+    color: #000;
+    font-weight: 500;
+}
+
+
 .text-center {
     margin: 20px auto;
     width: 100%;
@@ -10,8 +41,9 @@
     padding-right: 0px;
 }
 
-.col p:hover {
-    font-weight: bolder;
+
+.price{
+    font-size: 12px;
 }
 
 .overlay {
@@ -89,6 +121,7 @@ img {
     width: 100%;
 }
 
+
 .showproducts {
     margin-right: 2px;
 }
@@ -123,4 +156,68 @@ img {
 .swiper-slide img {
     width: 100%;
     height: auto;
+}
+/* footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 20px;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section li {
+    margin: 5px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.socials a {
+    margin: 0 10px;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+}
+
+.socials a:hover {
+    color: #f0c14b;
 }

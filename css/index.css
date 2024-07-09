@@ -278,35 +278,3 @@
     justify-content: space-around;
 }
 
-.col {
-    width: calc(33.33% - 20px);
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-    background-color: #f1e8e8;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.col i {
-    font-size: 24px;
-    margin-bottom: 10px;
-    display: block;
-}
-
-.col p {
-    font-size: 20px;
-    color: #000;
-    margin-bottom: 5px;
-}
-
-.col a {
-    text-decoration: none;
-    color: #666;
-}
-
-.col a:hover {
-    color: #000;
-    font-weight: bold;
-}
